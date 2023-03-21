@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1496 1036">
+    <filter id="shadow1">
+        <feDropShadow dx="4" dy="4" stdDeviation="8" flood-color="#3C5164" flood-opacity="0.25" />
+    </filter>
+    <style type="text/css">
+        .move-animation-up {
+        animation: move-animation-up 20s 0s linear normal infinite forwards;
+        -webkit-animation: move-animation-up 20s 0s linear normal infinite forwards;
+        }
+        @keyframes move-animation-up {
+        0% {
+        transform: translateY(1000px);
+        }
+        100% {
+        transform: translateY(-1000px);
+        }
+        }
+        @-webkit-keyframes move-animation-up {
+        0% {
+        -webkit-transform: translateY(1000px);
+        }
+        100% {
+        -webkit-transform: translateY(-1000px);
+        }
+        }
+        .move-animation-down {
+        animation: move-animation-down 20s 0s linear normal infinite forwards;
+        -webkit-animation: move-animation-down 20s 0s linear normal infinite forwards;
+        }
+        @keyframes move-animation-down {
+        0% {
+        transform: translateY(-1000px);
+        }
+        100% {
+        transform: translateY(1000px);
+        }
+        }
+        @-webkit-keyframes move-animation-down {
+        0% {
+        -webkit-transform: translateY(-1000px);
+        }
+        100% {
+        -webkit-transform: translateY(1000px);
+        }
+        }
+    </style>
+    <g id="right-shadows" class="move-animation-up" filter="url(#shadow1)">
+        <rect x="765.01" y="700.87" width="311.58" height="311.58"/>
+        <rect x="765.01" y="362.21" width="311.58" height="311.58"/>
+        <rect x="765.01" y="23.55" width="311.58" height="311.58"/>
+    </g>
+    <g id="right-blue-squares" class="move-animation-up">
+        <rect x="763.01" y="698.87" width="315.58" height="315.58" fill="#00aeff"/>
+        <rect x="763.01" y="360.21" width="315.58" height="315.58" fill="#00aeff"/>
+        <rect x="763.01" y="21.55" width="315.58" height="315.58" fill="#00aeff"/>
+    </g>
+    <g id="left-shadows" class="move-animation-down" filter="url(#shadow1)">
+        <rect x="419.41" y="700.87" width="311.58" height="311.58"/>
+        <rect x="419.41" y="362.21" width="311.58" height="311.58"/>
+        <rect x="419.41" y="23.55" width="311.58" height="311.58"/>
+    </g>
+    <g id="left-red-squares" class="move-animation-down">
+        <rect x="417.41" y="698.87" width="315.58" height="315.58" fill="#fe4a3f"/>
+        <rect x="417.41" y="360.21" width="315.58" height="315.58" fill="#fe4a3f"/>
+        <rect x="417.41" y="21.55" width="315.58" height="315.58" fill="#fe4a3f"/>
+    </g>
+</svg>
